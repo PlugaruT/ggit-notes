@@ -1,3 +1,6 @@
 .vscode/
-
+**__/
 *.pyc
+__pycache__/
+*.py[cod]
+*.sqlite3
