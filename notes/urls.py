@@ -19,5 +19,6 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('notes/', include('ggit_notes.urls'))
+    path('notes/', include('ggit_notes.urls')),
+    path('users/', include('django.contrib.auth.urls')),
 ]
