@@ -1,8 +1,6 @@
 from django.contrib import admin
-from ggit_notes.models import Note
+from ggit_notes.models import Note, NoteElement
 # Register your models here.
 
-
-@admin.register(Note)
-class Note(admin.ModelAdmin):
-    pass
+admin.site.register(Note)
+admin.site.register(NoteElement)
